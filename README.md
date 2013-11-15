@@ -1,4 +1,4 @@
-grails-fatcow-icons
+grails-fatcow-icons [![Build Status](https://travis-ci.org/davidecavestro/grails-fatcow-icons.png?branch=master)](https://travis-ci.org/davidecavestro/grails-fatcow-icons)
 ==================
 
 A simple plugin that bundles the Fatcow Free icons set from http://www.fatcow.com and provides a handful of convenient taglibs that create asynchronous buttons out of the icons.
