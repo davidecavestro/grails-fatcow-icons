@@ -1,7 +1,7 @@
 grails-fatcow-icons [![Build Status](https://travis-ci.org/davidecavestro/grails-fatcow-icons.png?branch=master)](https://travis-ci.org/davidecavestro/grails-fatcow-icons)
 ==================
 
-A simple plugin that bundles the Fatcow Free icons set from http://www.fatcow.com and provides a handful of convenient taglibs that create asynchronous buttons out of the icons.
+A simple plugin that bundles the Fatcow Free icons set from http://www.fatcow.com and provides some convenient taglibs that create asynchronous buttons out of the icons.
 
 # Icons
 The icons themselves are located in the plugin's web-app/images directory, bundled exactly as they would be unzipped had you downloaded the zip file directly from FATCOWICONS. The free bundle includes the free icons set at 16x16 and 32x32 size, located in images/FatCow_Icons16x16 and images/FatCow_Icons32x32 respectively.
@@ -50,4 +50,5 @@ update="success" before="if(!confirm('Are you sure?')) return false">Test 5</fat
 
 # Credits
 
-This plugin is heavily based on the work done by the authors of http://github.com/ericbuitenhuis/grails-glyph-icons ... even this document started as a copy and paste of the grails-glyph-icons README :-)
+This plugin includes image icons created at [FATCOW](http://www.fatcow.com).
+Also, it is heavily based on the work done by the authors of [grails-glyph-icons](http://github.com/ericbuitenhuis/grails-glyph-icons)... even this document started as a copy and paste of the grails-glyph-icons README :-)
