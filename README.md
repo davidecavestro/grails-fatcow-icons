@@ -1,7 +1,7 @@
 grails-fatcow-icons
 ==================
 
-A simple plugin that bundles free icons from http://www.fatcow.com and provides a handful of convenient taglibs that create asynchronous buttons out of the icons.
+A simple plugin that bundles the Fatcow Free icons set from http://www.fatcow.com and provides a handful of convenient taglibs that create asynchronous buttons out of the icons.
 
 # Icons
 The icons themselves are located in the plugin's web-app/images directory, bundled exactly as they would be unzipped had you downloaded the zip file directly from FATCOWICONS. The free bundle includes the free icons set at 16x16 and 32x32 size, located in images/FatCow_Icons16x16 and images/FatCow_Icons32x32 respectively.
