@@ -8,8 +8,8 @@ import org.junit.*
 /**
  * See the API for {@link grails.test.mixin.web.GroovyPageUnitTestMixin} for usage instructions
  */
-@TestFor(FatCowIconsPluginTagLib)
-class FatCowIconsPluginTagLibTests {
+@TestFor(FatcowIconsPluginTagLib)
+class FatcowIconsPluginTagLibTests {
 
     void testIcon() {
         String imgHtml = applyTemplate("<fatcow:icon iconName='accept'/>")

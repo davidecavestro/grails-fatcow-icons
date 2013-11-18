@@ -1,6 +1,6 @@
 package fatcowicons
 
-class FatCowIconsPluginTagLib {
+class FatcowIconsPluginTagLib {
     static namespace = "fatcow"
 
     /**
@@ -59,7 +59,7 @@ class FatCowIconsPluginTagLib {
         def path = "FatCow_Icons${attr.size ?: '16x16'}"
         def dir = '/images/' + path
         def link = resource(dir: dir, file: attr.iconName + '.png', plugin: 'fatcowicons')
-        def alt = attr.alt ?: attr.iconName
+        def alt = attr.alt ?: attr.iconName.capitalize()
 
         StringBuilder buffer = new StringBuilder()
         buffer.append('<img ')

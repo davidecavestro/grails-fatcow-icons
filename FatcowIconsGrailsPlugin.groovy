@@ -1,4 +1,4 @@
-class FatCowIconsGrailsPlugin {
+class FatcowIconsGrailsPlugin {
     def version = "0.1.0"
     def grailsVersion = "2.0 > *"
 
