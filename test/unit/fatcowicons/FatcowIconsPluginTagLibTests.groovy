@@ -13,6 +13,6 @@ class FatcowIconsPluginTagLibTests {
 
     void testIcon() {
         String imgHtml = applyTemplate("<fatcow:icon iconName='accept'/>")
-        assertEquals '<img src="null/images/FatCow_Icons16x16/accept.png" alt="accept" />', imgHtml 
+        assertEquals '<img src="null/images/FatCow_Icons16x16/accept.png" alt="Accept" />', imgHtml 
     }
 }
