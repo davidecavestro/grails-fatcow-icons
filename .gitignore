@@ -2,5 +2,6 @@
 /.settings
 /.classpath
 /.project
-grails-fat-cow-icons-*.zip
+grails-fatcow-icons-*.zip
+grails-fatcow-icons-*.zip*
 /plugin.xml
