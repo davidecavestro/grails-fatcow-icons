@@ -4,25 +4,25 @@ grails-fatcow-icons [![Build Status](https://travis-ci.org/davidecavestro/grails
 A simple plugin that bundles the Fatcow Free icons set from http://www.fatcow.com/free-icons and provides some convenient taglibs to expose the icons as simple images or as potentially asynchronous clickable links.
 
 # Icons
-The icons themselves are located in the plugin's web-app/images directory, bundled exactly as they would be unzipped had you downloaded the zip file directly from FATCOWICONS. The free bundle includes the free icons set at 16x16 and 32x32 size, located in images/FatCow_Icons16x16 and images/FatCow_Icons32x32 respectively.
+The icons themselves are located in the plugin's `web-app/images` directory, bundled exactly as they would be unzipped had you downloaded the zip file directly from FATCOWICONS. The free bundle includes the free icons set at `16x16` and `32x32` size, located in `images/FatCow_Icons16x16` and `images/FatCow_Icons32x32` respectively.
 
 ## Designating An Icon
-The plugin takes care of most of the excessive typing for you, allowing you to include ONLY the main part of the filename and not the extension. For example, the icon with the /images/FatCow_Icons16x16/accept.png path would require iconName="accept".
+The plugin takes care of most of the excessive typing for you, allowing you to include ONLY the main part of the filename and not the extension. For example, the icon with the `/images/FatCow_Icons16x16/accept.png` path would require `iconName="accept"`.
 
 ## Size
-The Size merely controls the 'set' of icons you wish to use, currently only '16x16' and '16x16'. The FATCOWICONS release distributes the '16x16' set of icons and the '16x16' set of icons.
+The Size merely controls the 'set' of icons you wish to use, currently only `16x16` and `32x32`. The FATCOWICONS release distributes the `16x16` set of icons and the `16x16` set of icons.
 
 #Taglib
 ## fatcow:icon
 Generates an `<img/>` tag that will load the icon on the page.
 
-For example, the following will produce an <img/> tag on the page, loading the 16x16 accept.png icon:
+For example, the following will produce an <img/> tag on the page, loading the `16x16` `accept.png` icon:
     `<fatcow:icon iconName="accept"/>`
 
 ### iconName
-The file name of the plugin without the .png extension. For example, `iconName="accept"` would load the resource from /images/FatCow_Icons16x16/accept.png.
+The file name of the plugin without the .png extension. For example, `iconName="accept"` would load the resource from `/images/FatCow_Icons16x16/accept.png`.
 ### size
-Currently either '16x16' or '32x32'. Size is optional and will default to '16x16'
+Currently either `16x16` or `32x32`. Size is optional and will default to `16x16`
 ### alt
 Creates the HTML alt attribute in the `<img/>` tag. The taglib doesn't require this attribute, although HTML standard does. If you leave this blank, the plugin will place the iconName in there instead.
 ### width
