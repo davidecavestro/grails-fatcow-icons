@@ -34,19 +34,26 @@ Generates an HTML height attribute in the `<img/>` tag.
 Uses an icon as a link to a remote uri that can be invoked via ajax. This tag is a thin wrapper above the `remoteLink` tag built into Grails. The attributes for the action tag are exactly the same as icon, adding all the attributes from `remoteLink`.
 
 For example, the following will produce an async link using the `accept.png` icon, calling the `mycontroller/list` and updating the content element with the results:
-`<fatcow:action controller="mycontroller" action="list" update="content" iconName="accept" alt="Accept Icon" />`
+```
+<fatcow:action controller="mycontroller" action="list" update="content" iconName="accept" alt="Accept Icon" />
+```
 
 Given the action tag leverages the `remoteLink` tag, here are some examples taken from http://grails.org/doc/latest/ref/Tags/remoteLink.html redone for fatcow:
 
 ```<fatcow:action iconName="accept" alt="Accept Icon" action="show" id="1">Test 1</fatcow:action>
+
 <fatcow:action iconName="accept" alt="Accept Icon" action="show" id="1"
 update="[success:'success',failure:'error']" on404="alert('not found');">Test 2</fatcow:action>
+
 <fatcow:action iconName="accept" alt="Accept Icon" action="show" id="1"
 update="success" onLoading="showSpinner();">Test 3</fatcow:action>
+
 <fatcow:action iconName="accept" alt="Accept Icon" action="show" id="1"
 update="success" params="[sortBy:'name',offset:offset]">Test 4</fatcow:action>
+
 <fatcow:action iconName="accept" alt="Accept Icon" action="show" id="1"
-update="success" before="if(!confirm('Are you sure?')) return false">Test 5</fatcow:action>```
+update="success" before="if(!confirm('Are you sure?')) return false">Test 5</fatcow:action>
+```
 
 # Credits
 
