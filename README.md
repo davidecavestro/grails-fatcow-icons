@@ -61,4 +61,5 @@ Given the action tag leverages the `remoteLink` tag, here are some examples take
 # Credits
 
 This plugin includes image icons created at [FATCOW](http://www.fatcow.com).
+
 Also, it is heavily based on the work done by the authors of [grails-glyph-icons](http://github.com/ericbuitenhuis/grails-glyph-icons)... even this document started as a copy and paste of the grails-glyph-icons README :-)
